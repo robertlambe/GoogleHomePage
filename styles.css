@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* logo formatting */
 
 .logo{
@@ -17,5 +21,36 @@
     padding: 0.6%;
     border-radius: 15px;
     border: 1px lightgray solid;
-    width: 25%;
+    width: 35%;
+}
+
+input:focus{
+    outline: none;
+}
+
+/* search buttons */
+
+.buttons{
+    display: flex;
+}
+
+.btn{
+    margin: 1% auto;
+    padding: 0.8% 1%;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    border: 1px gray solid;
+}
+
+.sub{
+    margin-right: 1%;
+}
+
+.luck{
+    margin-left: 1%;
 }
