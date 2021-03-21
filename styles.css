@@ -1,3 +1,5 @@
+/* logo formatting */
+
 .logo{
     padding-top: 12%;
 }
@@ -5,4 +7,15 @@
 .logo-img{
     display: flex;
     margin: auto;
+}
+
+/* search bar */
+
+.bar-search{
+    display: flex;
+    margin: 1% auto;
+    padding: 0.6%;
+    border-radius: 15px;
+    border: 1px lightgray solid;
+    width: 25%;
 }
